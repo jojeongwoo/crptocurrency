@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    width: 1100px;
+    border-bottom: 2px solid white;
+    padding: 24px 0;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 0;
+    width: 235px;
+}
+
+.coinImg {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.coinData {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 40px;
+}
+
+.price {
+    width: 110px;
+}
+
+.marketCap {
+    width: 130px;
+}
+
+.changePer {
+    width: 50px;
+}
+
+.symbol {
+    width: 100px;
+}
+
+.plus {
+    color: lightgreen;
+}
+
+.minus {
+    color: red;
+}
